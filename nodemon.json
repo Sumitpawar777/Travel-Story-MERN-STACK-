@@ -1,0 +1,8 @@
+{
+    "env": {
+        "DB_USER": "sumit",
+        "DB_PASSWORD": "yMfBSJyHHCWE8oOp",
+        "DB_NAME": "mern",
+        "JWT_KEY": "supersecret_dont_share"
+    }
+}
