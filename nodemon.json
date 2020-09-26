@@ -1,8 +1,8 @@
 {
     "env": {
-        "DB_USER": "sumit",
-        "DB_PASSWORD": "yMfBSJyHHCWE8oOp",
+        "DB_USER": "add username of mongodb Cluster",
+        "DB_PASSWORD": "add password of your mongodb Cluster",
         "DB_NAME": "mern",
-        "JWT_KEY": "supersecret_dont_share"
+        "JWT_KEY": "Add your JWT key here"
     }
 }
