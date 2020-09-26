@@ -53,7 +53,7 @@ mongoose.
         `mongodb://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0-shard-00-00.mg9gh.mongodb.net:27017,cluster0-shard-00-01.mg9gh.mongodb.net:27017,cluster0-shard-00-02.mg9gh.mongodb.net:27017/${process.env.DB_NAME}?ssl=true&replicaSet=atlas-ib4kzq-shard-0&authSource=admin&retryWrites=true&w=majority`
     )
     .then(() => {
-        app.listen(process.env.PORT || 5000);
+        app.listen(5000);
     })
     .catch((error) =>{
         console.log(error);
